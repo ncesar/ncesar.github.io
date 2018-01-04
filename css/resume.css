@@ -23,7 +23,9 @@ h6 {
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40; }
-
+.portfolio-descricao{
+  font-weight: bold;
+}
 h1 {
   font-size: 6rem;
   line-height: 5.5rem; }
