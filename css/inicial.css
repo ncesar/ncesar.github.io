@@ -1,0 +1,26 @@
+.fundo{
+  background-color: #69a0f6;
+}
+h1{
+  font-family: 'Saira Extra Condensed', serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 100px;
+  margin: 0;
+  color: #F2FFFC;
+  font-size: 60px;
+}
+h2{
+  font-size:40px;
+  margin: 0;
+  font-family: "Saira Extra Condensed" , sans-serif;
+  text-align: center;
+  color: #F2FFFC;
+}
+.imagens{
+  display: flex;
+  justify-content: space-around;
+}
+a{
+  flex: 0 1;
+}
