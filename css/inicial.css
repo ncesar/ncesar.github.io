@@ -24,8 +24,23 @@ h1{
   text-transform: uppercase;
   text-align: center;
   color: #fff;
+  letter-spacing: 2px;
 }
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #979595; }
+  border-color: #979595;
+}
+.icon{
+  color: #fff;
+  padding: 15px;
+}
+a{
+  text-decoration: none!important;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 4px;
+}
