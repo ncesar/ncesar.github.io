@@ -25,11 +25,11 @@ h1{
   text-align: center;
   color: #fff;
   padding-top: 15px;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
   font-weight: bold;
 }
 hr {
-  max-width: 50px;
+  max-width: 140px;
   border-width: 3px;
   border-color: #979595;
 }
@@ -39,11 +39,13 @@ i:hover{
 
 .icon{
   color: #fff;
-
   font-size: 0;
 }
 a{
   text-decoration: none!important;
+}
+.email{
+  margin-top: 10px;
 }
 
 p{
