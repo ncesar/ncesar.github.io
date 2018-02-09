@@ -4,10 +4,31 @@ body{
 @media(max-width: 768px){
   body img.logo{
     padding-top: 25%;
+    width: 70%;
+  }
+  body img#brasil,#eua{
+    width: 15%;
   }
   h1{
-    font-size: 15px;
+    font-size: 10px;
+    letter-spacing: 3px;
   }
+  hr{
+    max-width: 90px;
+    border-width: 2px;
+  }
+  a{
+    font-size: 10px;
+  }
+  p{
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+  .email{
+    margin-top: 5px;
+  }
+
+
 }
 @media(min-width: 768px){
   body img.logo{
@@ -15,7 +36,20 @@ body{
   }
   h1{
     font-size: 20px;
+    letter-spacing: 5px;
   }
+  hr{
+    max-width: 140px;
+    border-width: 3px;
+  }
+  p{
+    font-size: 15px;
+    letter-spacing: 5px;
+  }
+  .email{
+    margin-top: 10px;
+  }
+
 
 }
 
@@ -25,13 +59,13 @@ h1{
   text-align: center;
   color: #fff;
   padding-top: 15px;
-  letter-spacing: 5px;
   font-weight: bold;
 }
 hr {
-  max-width: 140px;
-  border-width: 3px;
   border-color: #979595;
+}
+.welcome{
+  margin-top: -15px;
 }
 i:hover{
   color: #000;
@@ -44,14 +78,9 @@ i:hover{
 a{
   text-decoration: none!important;
 }
-.email{
-  margin-top: 10px;
-}
 
 p{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #fff;
-  font-size: 15px;
-  letter-spacing: 5px;
 }
