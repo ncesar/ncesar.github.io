@@ -413,3 +413,9 @@ div.site.aulas{
   -webkit-text-stroke: 4px #10101b;
 text-stroke: 4px navy;
 }
+.wrapper .links .site h2 {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    color: #130f0f;
+    font-weight: 900;
+}
