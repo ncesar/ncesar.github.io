@@ -3,7 +3,7 @@ body{
 }
 @media(max-width: 768px){
   body img.logo{
-    padding-top: 25%;
+    padding-top: 5%;
     width: 70%;
   }
   body img#brasil,#eua{
@@ -30,9 +30,12 @@ body{
 
 
 }
-@media(min-width: 768px){
+
+
+@media(min-width: 1024px){
   body img.logo{
-     padding-top: 10%;
+     padding-top: 40px;
+     width: 400px;
   }
   h1{
     font-size: 20px;
@@ -50,7 +53,301 @@ body{
     margin-top: 10px;
   }
 
+  /* lista de links
+  Inspiração: http://www.jrn.space/
+  */
+  .wrapper {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      padding: 20px
+  }
+  .links{
+    width: 350px;
+  }
+  .wrapper .links {
+    /*  padding: 20px; */
+      border-radius: 10px;
+      border: 2px solid #050505;
+      background: -webkit-linear-gradient(bottom left, #87959a, #3a5077);
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      overflow: hidden;
+  }
+  .aulas-texto{
+    margin-bottom: 0!important;
+    margin-right: 0!important;
+    margin-left: 0!important;
+  }
+  .aulas{
+    height: 88px;
+  }
 
+  .wrapper .links .site {
+      margin: 10px;
+      border-radius: 10px;
+      border: 2px solid #050505;
+      background-color: #FDFDFD
+  }
+
+  .wrapper .links .site h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 40px;
+      margin: 20px;
+      color: #565656;
+  }
+
+  .wrapper .links .site:hover {
+      animation: float 0.2s ease-in-out 1;
+      box-shadow: 5px 25px 15px 0px rgba(0, 0, 0, 0.2);
+      transform: translate(-2px, -5px)
+  }
+
+}
+
+@media(min-width: 320px){
+
+
+  /* lista de links
+  Inspiração: http://www.jrn.space/
+  */
+  .wrapper {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      padding: 0;
+      margin-left: -4px;
+  }
+  .links{
+    width: 300px;
+  }
+  .wrapper .links {
+    /*  padding: 20px; */
+      border-radius: 10px;
+      border: 2px solid #050505;
+      background: -webkit-linear-gradient(bottom left, #87959a, #3a5077);
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      overflow: hidden;
+  }
+  .aulas-texto{
+    margin-bottom: 0!important;
+    margin-right: 0!important;
+    margin-left: 0!important;
+  }
+  .aulas{
+    height: 76px;
+  }
+
+  .wrapper .links .site {
+      margin: 10px;
+      border-radius: 10px;
+      border: 2px solid #050505;
+      background-color: #FDFDFD
+  }
+
+  .wrapper .links .site h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+      margin: 20px;
+      color: #565656;
+  }
+
+  .wrapper .links .site:hover {
+      animation: float 0.2s ease-in-out 1;
+      box-shadow: 5px 25px 15px 0px rgba(0, 0, 0, 0.2);
+      transform: translate(-2px, -5px)
+  }
+
+}
+
+@media(min-width: 375px){
+
+
+  /* lista de links
+  Inspiração: http://www.jrn.space/
+  */
+  .wrapper {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      padding: 0;
+      margin-left: -4px;
+  }
+  .links{
+    width: 350px;
+  }
+  .wrapper .links {
+    /*  padding: 20px; */
+      border-radius: 10px;
+      border: 2px solid #050505;
+      background: -webkit-linear-gradient(bottom left, #87959a, #3a5077);
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      overflow: hidden;
+  }
+  .aulas-texto{
+    margin-bottom: 0!important;
+    margin-right: 0!important;
+    margin-left: 0!important;
+  }
+  .aulas{
+    height: 88px;
+  }
+
+  .wrapper .links .site {
+      margin: 10px;
+      border-radius: 10px;
+      border: 2px solid #050505;
+      background-color: #FDFDFD
+  }
+
+  .wrapper .links .site h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 40px;
+      margin: 20px;
+      color: #565656;
+  }
+
+  .wrapper .links .site:hover {
+      animation: float 0.2s ease-in-out 1;
+      box-shadow: 5px 25px 15px 0px rgba(0, 0, 0, 0.2);
+      transform: translate(-2px, -5px)
+  }
+
+}
+@media(min-width: 414px){
+
+
+  /* lista de links
+  Inspiração: http://www.jrn.space/
+  */
+  .wrapper {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      padding: 20px;
+      margin-left: -3px;
+  }
+
+
+}
+@media(min-width: 768px){
+  body img.logo{
+     padding-top: 40px;
+     width: 400px;
+  }
+  h1{
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+  hr{
+    max-width: 140px;
+    border-width: 3px;
+  }
+  p{
+    font-size: 15px;
+    letter-spacing: 5px;
+  }
+  .email{
+    margin-top: 10px;
+  }
+
+  /* lista de links
+  Inspiração: http://www.jrn.space/
+  */
+  .wrapper {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      padding: 20px
+  }
+  .links{
+    width: 350px;
+  }
+  .wrapper .links {
+    /*  padding: 20px; */
+      border-radius: 10px;
+      border: 2px solid #050505;
+      background: -webkit-linear-gradient(bottom left, #87959a, #3a5077);
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      overflow: hidden;
+  }
+  .aulas-texto{
+    margin-bottom: 0!important;
+    margin-right: 0!important;
+    margin-left: 0!important;
+  }
+  .aulas{
+    height: 88px;
+  }
+
+  .wrapper .links .site {
+      margin: 10px;
+      border-radius: 10px;
+      border: 2px solid #050505;
+      background-color: #FDFDFD
+  }
+
+  .wrapper .links .site h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 40px;
+      margin: 20px;
+      color: #565656;
+  }
+
+  .wrapper .links .site:hover {
+      animation: float 0.2s ease-in-out 1;
+      box-shadow: 5px 25px 15px 0px rgba(0, 0, 0, 0.2);
+      transform: translate(-2px, -5px)
+  }
+
+}
+
+@media(min-width: 1440px){
+  /* lista de links
+  Inspiração: http://www.jrn.space/
+  */
+  .wrapper {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      padding: 20px
+  }
+  .links{
+    width: 394.813px;
+  }
+  .wrapper .links {
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #050505;
+      background: -webkit-linear-gradient(bottom left, #87959a, #3a5077);
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      overflow: hidden;
+  }
+  .aulas-texto{
+
+  }
+  .aulas{
+height: 88px;
+  }
+
+  .wrapper .links .site {
+      margin: 10px;
+      border-radius: 10px;
+      border: 2px solid #050505;
+      background-color: #FDFDFD
+  }
+
+  .wrapper .links .site h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 40px;
+      margin: 20px;
+      color: #565656;
+  }
+
+  .wrapper .links .site:hover {
+      animation: float 0.2s ease-in-out 1;
+      box-shadow: 5px 25px 15px 0px rgba(0, 0, 0, 0.2);
+      transform: translate(-2px, -5px)
+  }
 }
 
 h1{
@@ -83,4 +380,36 @@ p{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #fff;
+}
+
+
+
+@keyframes float{
+  0%
+  {
+    box-shadow:0 5px 15px 0px rgba(0,0,0,0.1);transform:translatey(0px)}100%
+    {
+      box-shadow:5px 25px 15px 0px rgba(0,0,0,0.2);transform:translate(-2px, -5px)}
+    }
+
+.link{
+  color: #050505;
+  text-decoration: none;
+}
+.link-texto
+{
+  text-transform: lowercase;;
+}
+div.site.br{
+  background:url(../img/br-flag.png)!important;
+}
+div.site.eua{
+  background:url(../img/eua-flag.png)!important;
+}
+div.site.aulas{
+  background:url(../img/aulas.png)!important;
+}
+.stroke{
+  -webkit-text-stroke: 4px #10101b;
+text-stroke: 4px navy;
 }
