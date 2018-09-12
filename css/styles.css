@@ -223,6 +223,12 @@ i{
   .scroll{
     padding: 10px!important;
   }
+  .nome{
+    font-size: 30px;
+  }
+  i.fas.fa-building{
+    font-size: 15px;
+  }
 }
 .timeline-body > p,
 .timeline-body > ul {
@@ -237,6 +243,7 @@ i{
 .linguagens > li > i{
   font-size: 50px;
 }
+
 #habilidades{
   background-color: #E0F2FE;
 }
