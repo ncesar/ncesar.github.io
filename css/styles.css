@@ -26,6 +26,12 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
   margin-top: 110px;
   color: #27353F;
 }
+.port{
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #27353F;
+}
 .profissao{
   color: #63717B;
 }
