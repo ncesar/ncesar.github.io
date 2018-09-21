@@ -1,347 +1,298 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112380062-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112380062-1"></script>
+  <script>
+ window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+gtag('config', 'UA-112380062-1');
+</script>
 
-      gtag('config', 'UA-112380062-1');
-    </script>
-
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Resumo do meu currículo">
-    <meta name="author" content="Ednaldo César Nascimento">
 
-    <title>César Nascimento - Resume</title>
-    <link rel="icon" href="favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="shortcut icon" type="ima/png" href="img/favicon.ico"/>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/devicon/css/devicon.css" rel="stylesheet">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/resume.css" rel="stylesheet">
-
+    <title>César Nascimento</title>
   </head>
-
-  <body id="page-top">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none"><img src="img/logo-mini.png" class="img-fluid" alt="Logo com o nome César"></span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <body>      <div class="pos-f-t" id="topo">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 sticky-top">
+        <li class="nav-item active">
+          <a class="nav-link" href="#inicio">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#time-line">Timeline</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#habilidades">Skills</a>
+        </li>
+      </ul>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark" id="nav_bar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#sobre">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experiencia">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#educacao">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#habilidades">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#qualificacoes">Qualifications</a>
-          </li>
-        </ul>
-      </div>
     </nav>
+  </div>
+    <section id="inicio">
 
-    <div class="container-fluid p-0">
+    <div class="container-fluid" id="inicio">
+      <div class="text-center">
+        <img src="img/eu.jpg" class="rounded-circle photo-center" alt="Foto de César">
+      </div>
+    </div>
+  </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="sobre">
-        <div class="my-auto">
-          <h1 class="mb-0">César
-            <span class="text-primary">N.</span>
-          </h1>
-          <div class="subheading mb-5">20 years · 4º period of Computer Science<br>Pernambuco, Brazil ·
-            <a href="mailto:ceesar90@gmail.com">ceesar90@gmail.com</a>
-          </div>
-          <p class="mb-5">Capacity of teamwork, ease in internal and external customer service, ease in instructions to users, always learning new softwares with flexibility and constant update of my knowledge in techlonogy area.
-            <br> I am always seeking for improvements(which can be creating of softwares and ideas in general) to the place i work.
-          <br> I'm also always studying and learning new things everyday to favor my future and the company i work.</p>
-          <ul class="list-inline list-social-icons mb-0">
-            <li class="list-inline-item">
-              <a href="http://www.linkedin.com/in/ednaldocesar">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="http://www.github.com/cesarnascimento">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+  <section id="sobre">
+    <div class="container">
+      <div class="text-center">
+        <h1 class="nome">César Nascimento</h1>
+        <h3 class="profissao">Web Developer</h3>
+        <h6>Faculdade Guararapes - Computer Science</h6>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experiencia">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
+        <p class="resumo-p">Passionate for learning new knowledge of the tech area.<br><br>
+        #getshitdone</p>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Estágio em Desenvolvimento Web</h3>
-              <a href="https://www.facebook.com/Putz-Comunica%C3%A7%C3%A3o-1326963080759378/?ref=page_internal" target="_blank"> <div class="subheading mb-3">Putz Comunicação</div> </a>
-              <p>Acting in Web Development area, focusing in Front-end.<br>
-                <strong>Activities:</strong> <br>
-                • Websites development focusing in Wordpress;<br>
-                • Creation of websites with multiple pages or landing pages;<br>
-                • Website's maintenance;<br>
-                • Mobile programming focusing in Android.<br>
+        <ul class="icones">
+          <li class="icon1"><a href="https://github.com/itcesar" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li class="icon1"><a href="https://linkedin.com/in/cesarnascimentoo" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li class="icon1"><a href="https://www.freecodecamp.org/cesarnascimento" target="_blank"><i class="fab fa-free-code-camp"></i></a></li>
+          <li><a href="mailto:cesarn.dev@gmail.com"><i class="fas fa-envelope-square"></i></a></li>
+        </ul>
 
-                <strong>Tools and Frameworks:</strong><br>
-                • HTML5, CSS3, Bootstrap 4, PHP, Javascript, Android Studio(Java) & Wordpress.
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">April 2018 - Now</span>
-            </div>
-          </div>		  
-		  
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Estágio em Desenvolvimento Web</h3>
-              <a href="https://www.facebook.com/Putz-Comunica%C3%A7%C3%A3o-1326963080759378/?ref=page_internal" target="_blank"> <div class="subheading mb-3">Putz Comunicação</div> </a>
-              <p>Acting in Web Development area, focusing in Front-end.<br>
-                <strong>Activities:</strong> <br>
-                • Websites development focusing in Wordpress;<br>
-                • Creation of websites with multiple pages or landing pages;<br>
-                • Website's maintenance;<br>
-                • Mobile programming focusing in Android.<br>
-
-                <strong>Tools and Frameworks:</strong><br>
-                • HTML5, CSS3, Bootstrap 4, PHP, Javascript, Android Studio(Java) & Wordpress.
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">March 2018 - April 2018</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">IT Intern</h3>
-              <a href="http://www.faculdadenovaroma.com.br" target="_blank"> <div class="subheading mb-3">Faculdade Nova Roma</div> </a>
-              <p>Machine managment using Windows 7, 8 and 10, costumer service, programs installation, optimization and maintenance of computers, maintenance of computer lab, printer managment, network, projectors, microphones, sound equipement, etc.
-                <br>The 5 labs totaled 65 computers, plus those of the employees, the total comes close to 100 computers to manage.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">March 2017 - November 2017</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Apprentice</h3>
-              <a href="http://www.gge.com.br" target="_blank"> <div class="subheading mb-3">Colégio GGE</div> </a>
-              <p>Customer service for people in person and by phone, stock management of uniforms, management by marketing site targeted to possible new students, etc.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">November 2016 - March 2017</span>
-            </div>
-          </div>
-
+        <div class="onde-estou">
+          <a href="https://www.google.com.br/destination?q=pernambuco+praia&site=search&output=search&dest_mid=/m/0hdzt&sa=X&ved=0ahUKEwiUzYiiiLTdAhUIIpAKHfX8BMUQ69EBCCkoADAA#dest_mid=/m/0hdzt&tcfs=EhoaGAoKMjAxOC0wOS0yNxIKMjAxOC0xMC0wMQ" target="_blank"><button type="button"  alt="Botão que leva para uma página falando sobre Recife - Pernambuco"
+            class="btn btn-primary">
+            <i class="fas fa-map-marker localizacao"></i> Pernambuco</button></a>
         </div>
 
-      </section>
+      </div>
+    </div>
+  </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="educacao">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Faculdade Guararapes</h3>
-              <div class="subheading mb-3">Bachalor degree in Computer Science</div>
-              <div>Currently focused on web programming.</div>
-              <p>Period: 4º</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2017 - 2021</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Governo do Estado de Pernambuco</h3>
-              <div class="subheading mb-3">Computer Technician</div>
-              <p>Incomplete</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2017 --</span>
-            </div>
-          </div>
-
+  <section id="time-line">
+    <hr>
+    <div class="container">
+        <div class="page-header text-center">
+            <h1 class="timeline-h1">Timeline</h1>
         </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="habilidades">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
-
-          <div class="subheading mb-3">Programming languages</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicon-html5-plain"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicon-css3-plain"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicon-java-plain"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicon-bootstrap-plain"></i>
-            </li>
-          </ul>
-
-          <div class="subheading mb-3">I am studying</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Java</li>
-              <li>
-                <i class="fa-li fa fa-check"></i>
-                Javascript</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              PHP &amp; MySQL</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              AngularJS</li>
-            <li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Bootstrap</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              C#</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
-        <div class="my-auto">
-          <h2 class="mb-5">Portfolio</h2>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">PHP system to show where the classroom will be</h3>
-              <p>PHP system to show the classrooms of certain day in college working with remote update.<br> Because the system uses database, I can only make images available, because this site is hosted on Github.io.</p>
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="portfolio/img/print1.png" target="_blank">
-                      <img src="portfolio/img/print1.png" class="img-fluid" alt="Print1"></a>
-                      <div class="caption">
-                        <p class="portfolio-descricao">Page visible to the student(without the buttons).</p>
-                      </div>
-                  </div>
+        <ul class="timeline">
+          <li>
+            <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title">Web Developer</h4>
+                <p><small class="text-muted"><i class="fas fa-building"></i> Putz Comunicação - <strong>Abr 2018 > Now</strong></small></p>
+              </div>
+              <div class="timeline-body">
+                <p><strong>Atividades:</strong> <br>
+                    • Websites development focusing in Wordpress; <br>
+                    • Creation of websites with multiple pages or landing pages; <br>
+                    • Website's maintenance <br>
+                    <strong>Tools and Frameworks</strong> <br>
+                    • HTML5, CSS3, Bootstrap 4, PHP, Javascript & Wordpress.</p>
+              </div>
+            </div>
+          </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Intern in Web Development</h4>
+                  <p><small class="text-muted"><i class="fas fa-building"></i> Putz Comunicação - <strong>Mar 2018 > Abr 2018</strong></small></p>
                 </div>
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="portfolio/img/print2.png">
-                      <img src="portfolio/img/print2.png" class="img-fluid"  target="_blank" alt="Print2"></a>
-                      <div class="caption">
-                        <p class="portfolio-descricao">Classrom creation.</p>
-                      </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="thumbnail">
-                    <a href="portfolio/img/print3.png" target="_blank">
-                      <img src="portfolio/img/print3.png" class="img-fluid" alt="Print3"</a>
-                      <div class="caption">
-                        <p class="portfolio-descricao">Classrom edit.</p>
-                      </div>
-                  </div>
+                <div class="timeline-body">
+                  <p><strong>Atividades:</strong> <br>
+                      • Websites development focusing in Wordpress; <br>
+                      • Creation of websites with multiple pages or landing pages; <br>
+                      • Website's maintenance <br>
+                      <strong>Tools and Frameworks</strong> <br>
+                      • HTML5, CSS3, Bootstrap 4, PHP, Javascript & Wordpress.</p>
                 </div>
               </div>
-              <h3 class="mb-0">Portfolio website made in Bootstrap 4.</h3>
-              <a href="portfolio/site/index.html" target="_blank"> <div class="subheading mb-3">Acess website</div> </a>
-              <p>Website made to acomplish a FreeCodeCamp challenge. It's a website made in portfolio style.<br>Theres no copyright and is free to use.</a>
-              <br>Made with HTML5, CSS3 and Bootstrap 4 concepts.</p>
+            </li>
+            <li>
+              <div class="timeline-badge warning"><i class="fas fa-chalkboard-teacher"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Object Oriented Programming Monitor</h4>
+                  <p><small class="text-muted"><i class="fas fa-building"></i> Faculdade Nova Roma - <strong>Mar 2018 > Jun 2018</strong></small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>Object Oriented Programming Monitor for students of the 2nd period of Faculdade Nova Roma.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Estagiário em TI</h4>
+                  <p><small class="text-muted"><i class="fas fa-building"></i> Faculdade Nova Roma - <strong>Mar 2017 > Nov 2017</strong></small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>Machine managment using Windows 7, 8 and 10, costumer service, programs installation, optimization and maintenance of computers, maintenance of computer lab, printer managment, network, projectors, microphones, sound equipement, etc.
+The 5 labs totaled 65 computers, plus those of the employees, the total comes close to 100 computers to manage.</p>
+                </div>
+              </div>
+            </li>
 
-              <h3 class="mb-0">Website using basic concepts of HTML5 and CSS3.</h3>
-              <a href="portfolio/site2/bio.html" target="_blank"> <div class="subheading mb-3">Acess website(pt-br only)</div> </a>
-              <p>Simple website made through <a href="https://www.alura.com.br/" target="_blank">Alura</a> course using basic concepts of HTML5 and CSS3.</p>
+            <li class="timeline">
+              <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Apprentice</h4>
+                  <p><small class="text-muted"><i class="fas fa-building"></i> Colégio GGE - <strong>Nov 2016 > Mar 2017</strong></small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>Customer service for people in person and by phone, stock management of uniforms, management by marketing site targeted to possible new students, etc.</p>
+                </div>
+              </div>
+            </li>
 
-              <h3 class="mb-0">YouTube channel with a Bootstrap 4 course.</h3>
-              <a href="https://www.youtube.com/watch?v=CmdlB4t5x-8" target="_blank"> <div class="subheading mb-3">Acess channel</div> </a>
-              <p>I'm developin a Bootstrap 4 course with focus in people with low experience in this framework.</p>
+        </ul>
+    </div>
+    <hr>
+  </section>
 
-              <h3 class="mb-0">Project of Object Oriented Programming made in Java</h3>
-              <a href="https://github.com/cesarnascimento/Projeto-POO" target="_blank"> <div class="subheading mb-3">Acess project(pt-br only)</div> </a>
-              <p>Project made in Java console that creates a place to open tickets related to IT, focusing the user and the staff member.
-              <br>The user can do your register/login and create a ticket, reporting your problem and his sector. That being done, the staff member can see the ticket and mark as solved or not solved.
-            <br>Theres also the admin class, which have the power to create tickets, delete and edit them, add staff member, delete and edit them too.</a>
+  <section id="portfolio">
+    <div class="container">
+      <div class="text-center">
+        <h1 class="port">Portfolio</h1>
+      </div>
+      <div class="row">
+        <div class="col-xs-18 col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <a href="https://i.imgur.com/VvJeysc.png" target="_blank"><img src="https://i.imgur.com/a71vD4I.png" class="img-port" alt="Imagem do projeto Sociali.app"></a>
+              <div class="caption">
+                <h4>Sociali.app</h4>
+                <p>Site made for a marketing tool used in Instagram. The front-end part of the site was made on Wordpress using as base a PSD image made by a designer freelancer utilizando como base um PSD do site já feito por um designer à parte.</p>
+                <p><a href="https://sociali.app" class="btn btn-info btn-xs botao" role="button">Acess</a> </p>
             </div>
           </div>
         </div>
-      </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="qualificacoes">
-        <div class="my-auto">
-          <h2 class="mb-5">Qualifications &amp; Additional activities</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Advanced English</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Project(open source from <a href="http://novosga.org/" target="_blank">novoSGA</a>), where the client picks up a password for the sector they want, the password appears in a panel and it is directed to the attendant.</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              PHP system to show the classrooms of certain day in college working with remote update.</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              System in PHP &amp; HTML for checking checks for certain months.</li>
-          </ul>
+        <div class="col-xs-18 col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <a href="https://i.imgur.com/NNBZeqa.png" target="_blank"><img src="https://i.imgur.com/6nohj5X.png"  class="img-port" alt="Imagem do meu canal do YouTube"></a>
+              <div class="caption">
+                <h4>Canal do YouTube</h4>
+                <p>This is my YouTube channel :) <br> There I put subjects that I am studying and I try to teach people what I already learned.</p>
+                <p><a href="https://youtube.com/CesarN1" class="btn btn-info btn-xs botao" role="button">Acess</a> </p>
+            </div>
+          </div>
         </div>
-      </section>
 
+        <div class="col-xs-18 col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <a href="https://i.imgur.com/NxoD2ZE.png" target="_blank"><img src="https://i.imgur.com/7XFLxHz.png"  class="img-port" alt="Imagem do Projeto de POO"></a>
+              <div class="caption">
+                <h4>Projeto de POO(2 period)</h4>
+                <p>Project made in java console that simulates a site for opening calls to IT support. To learn more, visit Github below.
+<small> The project was done with the help of the POO monitor, <a href="https://github.com/gabrielteodosio" target="_blank">Gabriel Teódosio</a>.</small></p>
+                          <p><a href="https://github.com/itcesar/Projeto-POO" class="btn btn-info btn-xs botao" role="button">Acess</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-18 col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <img src="https://itcesar.github.io/img/logo.png" class="img-port port2"  alt="">
+              <div class="caption">
+                <h4>Your portfolio online</h4>
+                <p>A self-help project to help people re-enter the labor market.
+                    <br> <a href="https://www.facebook.com/cesarnasciment00/posts/1133665120117634?__xts__%5B0%5D=68.ARCCkJHDBKoWzl_MTKtserrxStzfKYxp_IQH2wQqT0EkchjAZbp7PYPmZsSBcArgdrYJGqrK0aLozaAESBuIopSMSDLdS8Y7FQm9ezfTJ2QYIR97ze7GsdCdh9RLyaNUBNyDOzVnJh-gd4RWgCtEsOt52GcH7yw1YNhCO8Fde2xy6HdNXWfBYq4HO_t07I-XWsF3PMDle_f8n8sBZtmit2UzQuBCbmSOBKMOBnHwVQ&__tn__=K-R" target="_blank">Click here</a> to know more!
+                  </details></p>
+                <p><a href="https://www.facebook.com/cesarnasciment00/posts/1133665120117634?__xts__%5B0%5D=68.ARCCkJHDBKoWzl_MTKtserrxStzfKYxp_IQH2wQqT0EkchjAZbp7PYPmZsSBcArgdrYJGqrK0aLozaAESBuIopSMSDLdS8Y7FQm9ezfTJ2QYIR97ze7GsdCdh9RLyaNUBNyDOzVnJh-gd4RWgCtEsOt52GcH7yw1YNhCO8Fde2xy6HdNXWfBYq4HO_t07I-XWsF3PMDle_f8n8sBZtmit2UzQuBCbmSOBKMOBnHwVQ&__tn__=K-R" class="btn btn-info btn-xs botao" role="button">Acess</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <section id="habilidades">
+    <hr>
+    <div class="container-fluid habilidades">
+    <div class="container">
+    <div class="text-center">
+  <h1 class="timeline-h1">Skills</h1>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <h4>Programming Languages</h4>
+  <ul class="list-inline list-icons linguagens">
+    <li class="list-inline-item">
+      <i class="devicon-html5-plain"></i>
+    </li>
+    <li class="list-inline-item">
+      <i class="devicon-css3-plain"></i>
+    </li>
+    <li class="list-inline-item">
+      <i class="devicon-bootstrap-plain"></i>
+    </li>
+    <li class="list-inline-item">
+      <i class="devicon-wordpress-plain"></i>
+    </li>
+    <li class="list-inline-item">
+      <i class="devicon-java-plain"></i>
+    </li>
+  </ul>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+  <h4 class="linguagens">Studying</h4>
+  <ul class="list-inline list-icons">
+    <li class="list-inline-item">
+      <i class="devicon-java-plain"></i>
+    </li>
+    <li class="list-inline-item">
+      <i class="devicon-javascript-plain"></i>
+    </li>
+    <li class="list-inline-item">
+      <i class="devicon-angularjs-plain"></i>
+    </li>
+    <li class="list-inline-item">
+      <i class="devicon-bootstrap-plain"></i>
+    </li>
+  </ul>
+</div>
+</div>
+</div><hr>
+  </section>
 
+  <footer id="footer">
+    <div class="container text-center">
+      <p>Thats all folks!</p>
+      <p>Website made by César Nascimento<br>&copy; All rights reserved. - 2018</p>
+    </div>
+  </footer>
+  <div class='scrolltop'>
+      <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/principal.js"></script>
+    <script src="js/top.js"></script>
   </body>
-
+  <!-- Thumbnails portfolio by: https://bootsnipp.com/snippets/featured/thumbnail-with-caption-amp-buttons
+       Timeline by: http://codepen.io/jasondavis/pen/fDGdK
+       Template inspired in Robert Bowling Portfolio
+   -->
 </html>
