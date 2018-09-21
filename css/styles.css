@@ -306,6 +306,7 @@ i:hover{
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
+  border-radius: 5px;
 }
 .scroll:hover {
 	background:rgba(178,178,178,1.0);
