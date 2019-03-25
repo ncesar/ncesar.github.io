@@ -1,0 +1,43 @@
+.Content {
+  padding-top: 8rem;
+  h1 {
+    font-size: 34px;
+  }
+  .img-circle {
+    max-width: 25%;
+    border-radius: 50%;
+    margin-top: 2em;
+    border: 3px solid #0000ff94;
+  }
+  .hero {
+    padding-top: 4rem;
+    .hero-img {
+      width: 100%;
+      height: auto;
+      @media (min-width: 768px) {
+        max-width: 860px;
+      }
+    }
+  }
+  .sobre {
+    background-color: #4196f1;
+    padding-top: 6rem;
+    padding-bottom: 9rem;
+    .row {
+      justify-content: center;
+      align-items: center;
+    }
+    a {
+      color: #2b20bb;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    .heading-sobre {
+      color: #fff;
+    }
+    .text-sobre {
+      color: #fff;
+    }
+  }
+}
