@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/figaimagens.8869d24f.png"
   },
   {
-    "revision": "cf3253011104fe649a52",
+    "revision": "b2a56f6a2da6bfebdcf8",
     "url": "/static/css/main.5d5eb34c.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/estudefotografia.64dab4ac.png"
   },
   {
-    "revision": "cf3253011104fe649a52",
-    "url": "/static/js/main.27b7fae5.chunk.js"
+    "revision": "b2a56f6a2da6bfebdcf8",
+    "url": "/static/js/main.ecd3ef01.chunk.js"
   },
   {
     "revision": "92479f0293329fc6b21503a67f14184f",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo.4743df19.svg"
   },
   {
-    "revision": "6fb431b1b11e332478ab1a9a7c471cc9",
+    "revision": "45e3cd0db1a35a7ddf0e2934727973b9",
     "url": "/index.html"
   }
 ];
