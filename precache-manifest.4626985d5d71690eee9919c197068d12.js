@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/figaimagens.8869d24f.png"
   },
   {
-    "revision": "ae62605fd4da91d34d9c",
+    "revision": "ab0ab7a92ddcaa6a909a",
     "url": "/static/css/main.5d5eb34c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "3c76b70e6d85110518e1",
-    "url": "/static/js/2.e7583f9a.chunk.js"
+    "revision": "90c71f543df73c081d94",
+    "url": "/static/js/2.66414257.chunk.js"
   },
   {
     "revision": "e919c2d0732dcabfdf3ac4c1a9f74902",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/estudefotografia.64dab4ac.png"
   },
   {
-    "revision": "ae62605fd4da91d34d9c",
-    "url": "/static/js/main.f199a3a8.chunk.js"
+    "revision": "ab0ab7a92ddcaa6a909a",
+    "url": "/static/js/main.868c53ec.chunk.js"
   },
   {
     "revision": "92479f0293329fc6b21503a67f14184f",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/logo.4743df19.svg"
   },
   {
-    "revision": "06b9e2703ff8bc06e10e00bcd937f4d6",
+    "revision": "dff34e55e182bb8ef534a08cd30f1d2c",
     "url": "/index.html"
   }
 ];
