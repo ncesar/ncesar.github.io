@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Memória</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<h1>Joguinho da memória</h1>
+			<h2>Edição do Casal Doido</h2>
+			<h3>Vença e vá para a última fase</h3>
+		</header>
+	
+		<section class="score-panel">
+			<h3>Painel</h3>
+			<ul id="star-rating" class="star-rating">
+				<li class="star"><i class="fa fa-star"></i></li>
+				<li class="star"><i class="fa fa-star"></i></li>
+				<li class="star"><i class="fa fa-star"></i></li>
+			</ul>
+			<span class="moves-counter">0</span> Jogadas
+			<div class="timer-container">
+				<span class="timer"><i class="fa fa-hourglass-start"></i> Tempo: 00:00</span>
+			</div>
+			<div class="reset">
+				<button class="btn reset-btn">Resetar <i class="fa fa-repeat"></i></button>
+			</div>
+		</section>
+	
+		<!-- Modal -->
+		<section class="win-game-modal">
+			<div id="modal" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h2>Parabéns meu amor</h2>
+					<p>Você venceu esse joguinho!!</p>
+					<img class="modal-img" src="images/win.jpg" alt="Vault boy giving the thumbs up from the game fall out">
+					<p>Queria fazer algo mais especial mas você sabe como estou sem tempo por causa de outros trabalhos.. <br/>
+					De qualquer jeito, obrigado por estar comigo, que esse gesto simples(queria ter feito o vídeo mas sem pc..) fique na sua memória e ajude a matar 1 pouco a saudades</br />
+				que vamos sentir.. Te amo!</p>
+				</div>
+			</div>
+		</section>
+	
+		<ul class="deck"></ul>
+	</div>
+	
+	  <script src="script.js"></script>
+</body>
+</html>
+
+
+  </body>
+</html>
