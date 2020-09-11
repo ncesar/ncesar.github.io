@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>ioasys Empresas Blog</title>
+        <title>ioasys-Empresas Blog</title>
         <link>https://ncesar.github.io/ioasys/blog</link>
-        <description>The best place to stay up-to-date with the latest ioasys Empresas news and events.</description>
+        <description>The best place to stay up-to-date with the latest ioasys-Empresas news and events.</description>
         <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
-            <title>ioasys Empresas Blog</title>
+            <title>ioasys-Empresas Blog</title>
             <url>https://ncesar.github.io/ioasys/img/favicon.png</url>
             <link>https://ncesar.github.io/ioasys/blog</link>
         </image>
